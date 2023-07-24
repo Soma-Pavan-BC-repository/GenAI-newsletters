@@ -1,0 +1,15 @@
+Generation: The NLP creates source code inclusing comments following manual code input. For example, Deepgenx (with video) suggests potential code succession,
+just after only a part of the initial comment. Others are GitHub's Copilot, SourceAI, Themesberg (CSS code generator).
+Refactoring: when code needs to be re-structured one can refactor it via GAI models. For instance, Typist's AI offers this functionality. The input is code, which
+is text, which the NLP GAI modifies/re-organises into better-structured code, with respect to better practices. 
+Translation: Similarly, code can be translated from one language to another, from Python to Perl, from SQL to C++, etc. This video showcases OpenAI's Codex capabilites
+to do that. 
+
+  What could this mean?
+  Shift of coding focus: It seems obvious that the focus of coding will shift. Rather than coding administrative, and perhaps more straightforward code, developers can
+semi-automate it and allocate their time and energy to solving harder problems - where GAI's limits are obvious. Thus, th software product development cycle is likely to shorten.
+  It also seems logical, hopefully, that only officially securer libraries and packages are allowed to be integrated by AI, reducing vulnerabilites. 
+  Developers stay integral: However, questions remain like: how do we ensure code readability for fellow developers? We believe that in the short-  and mid-term code quality and readabili readability
+can not be guaranteed by an AI. A human in the loop (HITL) will stay inevitable. 
+  Shift of skills: What skills could be important for future developers? Coders will shift their profiles towards more holistic programmers that not only see the code problem
+at hand, but also all other aspects of software product development. 
