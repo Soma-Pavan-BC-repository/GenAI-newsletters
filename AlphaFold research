@@ -1,0 +1,20 @@
+AlphaFold 2 by GDM scored above 90 for proteins in CASP's global distance test, the Olympics of protein folding. This a test that measures the degree to which a preicted structure is similar to the determined structure in lab experiment, with 100 being a complete match. With a score of 90, this problem is considered sovled. With this result, AlphaFold is around 3 times better than previous solutions.
+AlphaFold - A company solves a problem and - rightfully so - monetizes it. The harder the problem solved, the higher the price. Especially, when there is demand. In this case, GDM decided differently. They have not only open-sourced the AlphaFold source code, but also its database that contains all resulting 3D protein structures. The database grew in the past 1 year from 1 million to more than 200 million proteins, covering now nerly every known protein on the planet.
+How does AlphaFold work: It starts by taking an educated guess, then iteratively imporiving the 3D generation.
+It uses an attention-based model, focusing on all important information rather than the latest information. Think of this analogy: you read a thick book, you are on page 234, and in order to understand a certain chapter you need to know information from page 2. In protein folding certain amino acids could be folded right next to each other while eing far away in the input sequence. 
+Expert knowledge is integrated. Some proteins fold in a specific way and some are exceptions. Much of this expertise is included in the model. Around 95% of the AI pipeline is trainable and so the model is continuously refined where possible and where new data is available.
+
+What is the impact of AlphaFold's results?
+1. Understanding the human body better in general. See for instance the finaly solved nuclear pore complex
+2. Creating more effective medicine, for example against Malaria
+3. Developing healthier food
+4. Improving desease preventino through effective vaccines
+5. Developing effective tools for capturing carbon dioxide. This could be an important step in combating global warming
+6. Producing sustainable (bio)materials
+7. Understanding the human body better: eg. Nuclear pore compelx (def.) 
+8. Creating artificaial enzymes to produce building materials like carbon nanotubes and graphene.
+
+Alpha Fold is a revolutionary deep learning-based system developed by DeepMind, a subsidiary of Alphabet Inc. (the parent company of Google). It is desinged to predict the three-dimensional (3D) structure of proteins which is a crucial step in understanding their functions and interactions in various biological processes.
+Proteins are fundamental biomolecules in living organisms, and their structure plays a key role in determining their function. Traditionally, determining the 3D structure of proteins experimentally has been a complex and time-consuming process. However, with the advancements in AI and deep learning, DeepMind's AlphaFold has made significant strides in predicting protein structures accurately and rapidly.
+Using a deep learning model, AlphaFold analyzes the genetic sequence of a protein and predicts its 3D structure based on known protein structuers from a database. It participated in the Critical Assessment of Structure Prediction (CASP) competitions and demonstrated remarkable accuracy, outperforming other methods and even reaching accuracy levels comparable to experimental techniques like X-ray cyrstallography and cryo-electron microscopy.
+The success of AlphaFold has the potential to revolutionize various fields, including biochemistry, drug discovery, and personalized medicine, as it allows researchers to gain a better understanding of protein functions and interactions, leading to the development of new therapeutic stratergies and treatments for various diseases.
