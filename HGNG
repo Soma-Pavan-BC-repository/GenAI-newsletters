@@ -1,0 +1,16 @@
+Hybrid Generative Neural Graphics (HCNG). A system that blends AI-generated background images with rendered images, ultimately improving the realism of simulators.
+Better realism: With variegated backgrounds, if you drive through your city, not a single corner looks exactly like another. Repetitive patterns break immersion. 
+With consistent objects, there are objects that should stay where you've seen them before - letter boxes, trees, certain houses.
+
+what is interesting in HGNG:
+it is a research collab between the US and China.
+Hybrid approaches yield great results. where else is it a wise choice?
+Each element is trained with a different dataset
+broadly tested (also good practice) : cityscapes=, kitti, and ADE20K
+Taking the best of both worlds, the blended HGNG (c) understands image semantics best:
+
+What could this mean?
+1. More, variegated and diverse learning environments: AI agents/models improve in solving problems at hand, as generating diverse data becomes significantly cheaper.
+2. Immersive games and simulations, the experience of games and simulators will imporve to a degree what we fully immerse into other worlds. Throw virtual reality (VR) glasses on top and pray that VR devices eg. gloves translate the
+haptics of VR worlds well (another interesting angle for startups to take) then this tech is unstoppable.
+3. Training of autonomous ships, airplanes, etc. : Environment generation fo this sort doesn't have to stop at streets. What about sea and air navigation in order to train autonomous ships and airplanes? The right dataset doesn't exist? Genarate it!
