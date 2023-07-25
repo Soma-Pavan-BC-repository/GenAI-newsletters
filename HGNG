@@ -22,7 +22,7 @@ actual vehicles observed from the driver's point of view.
 Background elements generated with GAN synthesizer and Objects of interest generated with conventional rendering.
 The system, called Hybrid Generative Neural Graphics (HGNG), injects highly-limited output from a conventional, CGI-based driving simulator into a GAN pipeline, where the NVIDIA SPADE framework takes
 over the work of environment generation. The advantage, according to the authors, is that driving environments will become potentially more diverse, creating a more immersive experience.
-As it stands, even converting CGI outpu to photoreal neural rendering output cannot solve the problem of repitition, as the original footage entering the neural pipeline is constrained by the limits of
+As it stands, even converting CGI output to photoreal neural rendering output cannot solve the problem of repitition, as the original footage entering the neural pipeline is constrained by the limits of
 model environments, and their tendency to repeat textures and meshes.
 
 The fidelity of a conventional driving simulator depends on the quality of its computer graphics pipeline, which consists of 3D models, textures, and a rendering engine. 
@@ -40,3 +40,10 @@ pipelines, 'break immersion' for human drivers using a simulator, and that more 
 The researchers experimented with both Conditional GAN(cGAN) and CycleGAN(CyGAN) as generative networks, finding ultimately that each ahs strength and weaknesses:
 cGAN requires paired datasets, and CyGAN does not. However, CyGAN cannot currently outperform the state-of-the-art in conventional simulatores, pending
 further imporvements in domain adaption and cycle consistency. Therefore cGAN, with its additional paried data requirements, obtains the vest results at the moment.
+
+Summary:
+The HGNG model or technique takes an input CGI-generated scene with a semantic layout. Instead of fully rendering the entire scene, only the foreground material is partially rendered. 
+The missing or incomplete parts are generated using a GAN, producing realistic backgrounds or other elements to complete the scene. The process aims to transform the input CGI-generated scene 
+into a more complete and visually appealing scene, possibly enhancing the realism or quality of the final output.
+
+link: https://www.unite.ai/improving-the-photorealism-of-driving-simulations-with-generative-adversarial-networks/
