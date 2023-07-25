@@ -11,6 +11,32 @@ Taking the best of both worlds, the blended HGNG (c) understands image semantics
 
 What could this mean?
 1. More, variegated and diverse learning environments: AI agents/models improve in solving problems at hand, as generating diverse data becomes significantly cheaper.
-2. Immersive games and simulations, the experience of games and simulators will imporve to a degree what we fully immerse into other worlds. Throw virtual reality (VR) glasses on top and pray that VR devices eg. gloves translate the
-haptics of VR worlds well (another interesting angle for startups to take) then this tech is unstoppable.
-3. Training of autonomous ships, airplanes, etc. : Environment generation fo this sort doesn't have to stop at streets. What about sea and air navigation in order to train autonomous ships and airplanes? The right dataset doesn't exist? Genarate it!
+2. Immersive games and simulations, the experience of games and simulators will imporve to a degree what we fully immerse into other worlds. 
+Throw virtual reality (VR) glasses on top and pray that VR devices eg. gloves translate the haptics of VR worlds well (another interesting angle for startups to take) then this tech is unstoppable.
+3. Training of autonomous ships, airplanes, etc. : Environment generation fo this sort doesn't have to stop at streets. What about sea and air navigation 
+in order to train autonomous ships and airplanes? The right dataset doesn't exist? Genarate it!
+
+In a novel take on the challenge of producing photorealistic POV driving scenarios, researchers from the US and China have developed a hybrid method that plays to the strengths of varying approaches,
+by mixing the more photorealistic output of CycleGAN-based systems with more conventionally-generated elements, which require a greater level of detail and consistency, such as road markings and the
+actual vehicles observed from the driver's point of view. 
+Background elements generated with GAN synthesizer and Objects of interest generated with conventional rendering.
+The system, called Hybrid Generative Neural Graphics (HGNG), injects highly-limited output from a conventional, CGI-based driving simulator into a GAN pipeline, where the NVIDIA SPADE framework takes
+over the work of environment generation. The advantage, according to the authors, is that driving environments will become potentially more diverse, creating a more immersive experience.
+As it stands, even converting CGI outpu to photoreal neural rendering output cannot solve the problem of repitition, as the original footage entering the neural pipeline is constrained by the limits of
+model environments, and their tendency to repeat textures and meshes.
+
+The fidelity of a conventional driving simulator depends on the quality of its computer graphics pipeline, which consists of 3D models, textures, and a rendering engine. 
+High-quality 3D models and textures require artisanship, whereas the rendering engine must run complicated physics calculations for the realistic representation of lighting and shading.
+The new paper titled 'Photorealism in Driving Simulations:Blending Generative Adversarial Image Synthesis with Rendering', and comes from researchers at the Department of Electrica and Computer Engineering at Ohio State University
+and Chongqing Changan Automobile Co Ltd in Chongqing, China.
+
+Background Material: HGNG transforms the semantic layout of an input CGI-generated scene by mixing rendered foreground material with GAN-generted environments. Though the researchers
+experimeneted with various datasets on which to train the models, the most effective proved to ve the KITTI Vision Benchmark Suite, which predominantly features captures
+of driver-POV material from the German town of Karlsruhe.
+
+HGNG generates a semantic segmentation layout from CGI-rendered output, and then interpsoes SPADE, with varying style encodings, to create random and diverse 
+photorealistic background imagery, including nearby objects in urban scenes. The new paper states that repetitive patterns, which are common to resource-constrained CGI 
+pipelines, 'break immersion' for human drivers using a simulator, and that more variegated backgrounds that a GAN can provide can alleviate this problem.
+The researchers experimented with both Conditional GAN(cGAN) and CycleGAN(CyGAN) as generative networks, finding ultimately that each ahs strength and weaknesses:
+cGAN requires paired datasets, and CyGAN does not. However, CyGAN cannot currently outperform the state-of-the-art in conventional simulatores, pending
+further imporvements in domain adaption and cycle consistency. Therefore cGAN, with its additional paried data requirements, obtains the vest results at the moment.
