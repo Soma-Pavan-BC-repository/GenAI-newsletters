@@ -1,4 +1,4 @@
-Generation: The NLP creates source code inclusing comments following manual code input. For example, Deepgenx (with video) suggests potential code succession,
+Generation: The NLP creates source code including comments following manual code input. For example, Deepgenx (with video) suggests potential code succession,
 just after only a part of the initial comment. Others are GitHub's Copilot, SourceAI, Themesberg (CSS code generator).
 Refactoring: when code needs to be re-structured one can refactor it via GAI models. For instance, Typist's AI offers this functionality. The input is code, which
 is text, which the NLP GAI modifies/re-organises into better-structured code, with respect to better practices. 
