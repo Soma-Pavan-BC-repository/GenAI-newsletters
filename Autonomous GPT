@@ -1,2 +1,41 @@
 You can copy paste this link for all the information on Autonomous GPT  :   https://github.com/Significant-Gravitas/Auto-GPT/releases/latest
+Installation and running Auto-GPT is very easy, the instructions are provided in this link : https://docs.agpt.co/setup/
+
+uto-GPT uses the versatility of OpenAI’s latest AI models to interact with software and services online, allowing it to “autonomously” perform tasks 
+like X and Y. But as we are learning with large language models, this capability seems to be as wide as an ocean but as deep as a puddle.
+
+Auto-GPT — which you might’ve seen blowing up on social media recently — is an open source app created by game developer Toran Bruce Richards that 
+uses OpenAI’s text-generating models, mainly GPT-3.5 and GPT-4, to act “autonomously.”
+
+
+There’s no magic in that autonomy. Auto-GPT simply handles follow-ups to an initial prompt of OpenAI’s models, both asking and answering them until 
+a task is complete.
+
+Auto-GPT, basically, is GPT-3.5 and GPT-4 paired with a companion bot that instructs GPT-3.5 and GPT-4 what to do. A user tells Auto-GPT what their 
+goal is and the bot, in turn, uses GPT-3.5 and GPT-4 and several programs to carry out every step needed to achieve whatever goal they’ve set.
+
+What makes Auto-GPT reasonably capable is its ability to interact with apps, software and services both online and local, like web browsers and 
+word processors. For example, given a prompt like “help me grow my flower business,” Auto-GPT can develop a somewhat plausible advertising strategy 
+and build a basic website.
+
+Behind the scenes, Auto-GPT relies on features like memory management to execute tasks, along with GPT-4 and GPT-3.5 for text generation, file storage and summarization.
+
+Auto-GPT can also be hooked up to speech synthesizers, like ElevenLabs’, so that it can “place” phone calls, for example.
+
+
+Auto-GPT is publicly available on GitHub, but it does require some setup and know-how to get up and running. To use it, Auto-GPT has to be installed 
+in a development environment like Docker, and it must be registered with an API key from OpenAI — which requires a paid OpenAI account.
+
+It might be worth it — although the jury’s out on that. Early adopters have used Auto-GPT to take on the sorts of mundane tasks better delegated 
+to a bot. For example, Auto-GPT can field items like debugging code and writing an email or more advanced things, like creating a business plan 
+for a new startup.
+
+“If Auto-GPT encounters any obstacles or inability to finish the task, it’ll develop new prompts to help it navigate the situation and determine 
+the appropriate next steps,” Adnan Masood, the chief architect at UST, a tech consultancy firm, told TechCrunch in an email. 
+“Large language models excel at generating human-like responses, yet rely on user prompts and interactions to deliver desired outcomes. 
+In contrast, Auto-GPT leverages the advanced capabilities of OpenAI’s API to operate independently without user intervention.”
+
+In recent weeks, new apps have emerged to make Auto-GPT even easier to use, like AgentGPT and GodMode, which provide a simple interface where users 
+can input what they want to accomplish directly on a browser page. Note that, like Agent-GPT, both require an API key from OpenAI to unlock their 
+full capabilities.
 
