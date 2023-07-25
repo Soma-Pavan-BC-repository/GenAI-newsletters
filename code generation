@@ -13,3 +13,20 @@ semi-automate it and allocate their time and energy to solving harder problems -
 can not be guaranteed by an AI. A human in the loop (HITL) will stay inevitable. 
   Shift of skills: What skills could be important for future developers? Coders will shift their profiles towards more holistic programmers that not only see the code problem
 at hand, but also all other aspects of software product development. 
+
+A holistic programmer keeps in mind:
+Coding best practices : Code generation is not equal to best code generation
+The software's architecture: which cloud? Hybrid? On-prem? What interfaces is it using? What design patterns to use?
+Cyber security: Can the seed code (this is the prompt for invoking the generated code) be typed in a way that it prevents various cyber attacks in teh best way possible?
+For all points above, prompt engineering (the skill of creating high-quality, sophisticated prompts) will have great significance.
+
+examples of code generation systems powered by Artificial Intelligence:
+1. CodeGenX is a Code Generation system powered by AI. It is delivered to you in the form of a Visual Studio Code Extension and is free and open-source.
+You have to type the prompt for the code that you want in the form of a comment and then the CodeGenX generates the code in the CodeGenX window. You can go ahead and copy the 
+entire code or just a part of the code.
+
+2. GitHub's Copilot is a cloud based AI tool developed by GitHub and OpenAI to help Visual Studio Code, Neovim, etc,. users by autocompleting the code. 
+You have to enter the prompt of what code you require as a comment and then the Copilot generates the code in the same window rather than a separate window as done by CodeGenX.
+
+3. SourceAI  is an AI-powered tool that can generate code in any programming language from any human language description. It can also simplify, find errors and fix them and debug your code.
+Unlike Copilot and CodeGenX which can generate code on the particular environment (Visual Studio Code) that your are working on, SourceAI has its own platform where the seed code or the prompt needs to be given.
